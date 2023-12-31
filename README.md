@@ -4,7 +4,7 @@ https://github.com/Abhishek-465/BOOK-STORE/assets/127030695/2ddd3e50-2e58-4466-9
 
 
 
-Welcome to the BookStore app! This is a web application built using React.js, Vite, MongoDB, and React Flowbite UI. It provides a delightful and user-friendly interface for managing and exploring a collection of books.
+Welcome to the BookStore app! It provides a delightful and user-friendly interface for managing and exploring a collection of books.
 Features
 
     Browse Books: Explore a diverse collection of books with a clean and intuitive user interface.
@@ -19,8 +19,14 @@ Technologies Used
         React.js
         Vite
         React Flowbite UI
-
+        Swiper JS
+        Tailwind CSS
+        
     Backend:
+        Node JS
+        Express JS
+        
+    Database:
         MongoDB
 
 
