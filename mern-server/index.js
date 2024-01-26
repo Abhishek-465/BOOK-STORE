@@ -5,7 +5,7 @@ const cors=require('cors');
 //middleware
 app.use(cors(
   {
-    origin: ["https://wondrous-jalebi-992478.netlify.app/"],
+    origin: ["https://wondrous-jalebi-992478.netlify.app"],
     methods:["POST","GET"],
     credentials: true
   }
