@@ -33,7 +33,7 @@ import EditBooks from "../dashboard/EditBooks";
         {
           path:"/book/:id",
           element:<SingleBook/>,
-          loader: ({params}) => fetch(`http://localhost:5000/book/${params.id}`)
+          loader: ({params}) => fetch(`https://book-store-mqzx.onrender.com/book/${params.id}`)
       }
       ]
     },
@@ -57,7 +57,7 @@ import EditBooks from "../dashboard/EditBooks";
         {
           path: "/admin/dashboard/edit-books/:id",
           element: <EditBooks/>,
-          loader: ({params}) => fetch(`http://localhost:5000/book/${params.id}`)
+          loader: ({params}) => fetch(`https://book-store-mqzx.onrender.com/book/${params.id}`)
         }
       ]
     }
