@@ -43,7 +43,7 @@ const EditBooks = () => {
     console.log(bookObj)
     //send data to db 
 
-    fetch(`https://book-store-api-blond.vercel.app/book/${id}`,{
+    fetch(`https://book-store-mqzx.onrender.com/${id}`,{
       method: "PATCH",
       headers: {
         "Content-Type": "application/json"
